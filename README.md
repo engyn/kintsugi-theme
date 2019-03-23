@@ -4,6 +4,10 @@
 ![Logo
 https://www.reddit.com/r/kintsugi/comments/7340t8/kintsugi_workshop_gold_pottery/](assets/kintsugi.jpg)
 
+WIP theming for the kintsugi project. Below is the readme from the repo this is forked from [rakr/vim-one](https://github.com/rakr/vim-one)
+
+===
+
 Light and dark vim colorscheme, shamelessly stolen from atom (another
 excellent text editor). **One** supports *true colors* and falls back
 gracefully and automatically if your environment does not support this
