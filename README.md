@@ -1,4 +1,8 @@
-![Logo][logo]
+
+# kintsugi
+
+![Logo
+https://www.reddit.com/r/kintsugi/comments/7340t8/kintsugi_workshop_gold_pottery/](../assets/kintsugi.jpg)
 
 Light and dark vim colorscheme, shamelessly stolen from atom (another
 excellent text editor). **One** supports *true colors* and falls back
