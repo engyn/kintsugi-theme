@@ -38,6 +38,12 @@ function! airline#themes#one#refresh()
   let g:airline#themes#one#palette.inactive_modified = {
         \ 'airline_c': [ group[0], '', group[2], '', '' ]
         \ }
+
+
+  let g:airline#themes#one#palette.normal.airline_term = s:N2
+  let g:airline#themes#one#palette.insert.airline_term = g:airline#themes#one#palette.normal.airline_term
+  let g:airline#themes#one#palette.replace.airline_term = g:airline#themes#one#palette.normal.airline_term
+  let g:airline#themes#one#palette.visual.airline_term = g:airline#themes#one#palette.normal.airline_term
 endfunction
 
 call airline#themes#one#refresh()

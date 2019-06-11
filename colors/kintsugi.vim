@@ -22,7 +22,7 @@ syntax reset
 if exists('g:colors_name')
   unlet g:colors_name
 endif
-let g:colors_name = 'one'
+let g:colors_name = 'kintsugi'
 
 if !exists('g:one_allow_italics')
   let g:one_allow_italics = 0
@@ -280,9 +280,9 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:hue_6   = 'd19a66' " orange 1
     let s:hue_6_2 = 'e5c07b' " orange 2
 
-    let s:syntax_bg     = '2F333D'
+    let s:syntax_bg     = '282c34'
     let s:syntax_gutter = '636d83'
-    let s:syntax_cursor = '373e4b'
+    let s:syntax_cursor = '2c323c'
 
     let s:syntax_accent = '528bff'
 
@@ -809,8 +809,8 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   " }}}
 
   " Neovim Terminal Colors --------------------------------------------------{{{
-  let g:terminal_color_0  = "#797979"
-  let g:terminal_color_8  = "#797979"
+  let g:terminal_color_0  = "#353a44"
+  let g:terminal_color_8  = "#353a44"
   let g:terminal_color_1  = "#e88388"
   let g:terminal_color_9  = "#e88388"
   let g:terminal_color_2  = "#a7cc8c"
@@ -847,7 +847,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
 endif
 "}}}
 " Public API --------------------------------------------------------------{{{
-function! one#highlight(group, fg, bg, attr)
+function! kintsugi#highlight(group, fg, bg, attr)
   call <sid>X(a:group, a:fg, a:bg, a:attr)
 endfunction
 "}}}
